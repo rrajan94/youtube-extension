@@ -35,9 +35,6 @@ const addButton = () => {
   function getCurrentTimestamp() {
     // Access the YouTube player
     const player = document.querySelector('.html5-video-player');
-    
-    ytplayer = document.getElementById("movie_player");
-    ytplayer.getCurrentTime();
 
     // Ensure that the player is available
     if (player && player.getVideoData) {
